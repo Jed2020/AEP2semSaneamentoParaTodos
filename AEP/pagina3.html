@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>SANEAMENTO PARA TODOS</title>
+  <LINK rel="stylesheet" href="pagina3.css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+      <div id="cabecalho">  
+      <h1>SANEAMENTO PARA TODOS</h1>
+      <div id="linha-horizontal"></div>
+      <div id="link-paginas"> <a href="index.html">Início</a> <a href="pagina2.html"> Quem somos</a> <a href="pagina3.html">Cadastro</a> </div>  
+      <p>Faça aqui seu cadastro:</p>
+      <div id="area">  
+      <form id="formulario" name="formulario" autocomplete="off" role="form" method="post" action="recebe.php">
+        <fieldset>  
+            <div class="row">
+                <div class="form-group col-lg-4">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Insira seu texto aqui">
+                </div>
+                <div class="form-group col-lg-8">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" name="cidade" placeholder="Insira seu texto aqui">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-6">
+                    <label for="estado">Estado</label>
+                    <select class="form-control" name="estado">
+                        <option value="">Selecione algo</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                                        </select>
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="tipoentidade">Tipo Entidade</label>
+                    <select class="form-control" name="tipoentidade">
+                        <option value="">Selecione algo</option>
+                        <option value="Pública">Pública</option>
+                        <option value="Organização Não Governamental">Organização Não Governamental</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-3">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" name="senha" placeholder="senha">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="Insira seu email aqui">
+                </div>
+                <div class="form-group">
+                    <label for="data">Data</label>
+                    <input type="date" class="form-control" name="data" placeholder="Insira seu emai aqui">
+                </div>
+            </div>
+            <div class="box-actions">
+                <input type="submit" class="btn btn-primary" value= "Enviar">
+                <button class="btn btn-danger">Cancelar</button>
+            </div>
+     
+        </fieldset>
+    </form>
+    <div id="link-paginas"> <a href="pagina4.html">Já sou cadastrado</a>
+    </body>
+    </html>    
